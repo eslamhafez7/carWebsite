@@ -111,7 +111,7 @@ const scrollActive = () => {
 window.addEventListener('scroll', scrollActive)
 
 // Scroll reveal animation 
-const sr = scrollReveal({
+const sr = ScrollReveal({
     origin: 'top',
     distance: '60px',
     duration: '2500',
@@ -124,10 +124,12 @@ sr.reveal('.home-elec', {delay: 600})
 sr.reveal('.home-img', {delay: 800})
 sr.reveal('.home-car-data', {delay: 900, interval: 100, origin: 'bottom'})
 sr.reveal('.home-button', {delay: 1000, interval: 100, origin: 'bottom'})
-sr.reveal('.about-group, .offer-data', {origin: left})
-sr.reveal('.about-data, .offer-img', {origin: right})
+sr.reveal('.about-group, .offer-data', {origin: 'left'})
+sr.reveal('.about-data, .offer-img', {origin: 'right'})
 sr.reveal('.features-map', {delay: 600, origin: 'bottom'})
 sr.reveal('.features-card', {interval: 300})
 sr.reveal('.featured-card, .logos-content, .footer-container', {interval: 100})
+
+
 
   
