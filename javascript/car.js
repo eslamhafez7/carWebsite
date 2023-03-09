@@ -116,7 +116,7 @@ const sr = ScrollReveal({
     distance: '60px',
     duration: '2500',
     delay: '400',
-    reset: true
+//     reset: true
 })
 sr.reveal('.home-title, .popular-container, .features-img, .featured-filters')
 sr.reveal('.home-subtitle', {delay: 500})
